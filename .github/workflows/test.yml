@@ -30,4 +30,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: user/app:latest
+          # tags: hmendiguchia/test:${{ github.sha }}
+          tags: hmendiguchia/test-githubactions:1.0
